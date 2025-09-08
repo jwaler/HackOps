@@ -5,6 +5,7 @@ site_author: "HackOps Team"
 
 theme:
   name: material
+  custom_dir: overrides
   copyright: ""
   language: fr
   features:
@@ -34,7 +35,7 @@ theme:
     text: Roboto
     code: Roboto Mono
   favicon: images/favicon.png
-  logo: logo.png
+  logo: images/logo.png
 
 markdown_extensions:
   - admonition
@@ -68,4 +69,4 @@ plugins:
   - minify:
       minify_html: true
 extra:
-  footer: "© 2025 BlackMesa – Tous droits réservés"
+  footer: ""
