@@ -5,7 +5,7 @@ site_author: "HackOps Team"
 
 theme:
   name: material
-  copyright: "HackOps Team"
+  copyright: ""
   language: fr
   features:
     - navigation.tabs
