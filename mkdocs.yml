@@ -19,7 +19,7 @@ theme:
     - toc.integrate
   palette:
     - scheme: slate
-      primary: orange
+      primary: deep orange
       accent: deep orange
       toggle:
         icon: material/weather-sunny
@@ -67,4 +67,5 @@ plugins:
   - mermaid2
   - minify:
       minify_html: true
-
+extra:
+  footer: "© 2025 BlackMesa – Tous droits réservés"
