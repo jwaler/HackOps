@@ -19,7 +19,7 @@ theme:
     - toc.integrate
   palette:
     - scheme: slate
-      primary: deep orange
+      primary: red
       accent: deep orange
       toggle:
         icon: material/weather-sunny
