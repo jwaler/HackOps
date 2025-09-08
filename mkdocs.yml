@@ -57,7 +57,7 @@ plugins:
   - search
   - tags
   - git-revision-date
-  - git-committers
+#  - git-committers
   - rss:
       match_path: ".*"
       date_from_meta:
