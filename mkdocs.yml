@@ -1,0 +1,69 @@
+site_name: HackOps Notes
+site_url: https://tonuser.github.io/hackops/
+site_description: "Cheatsheets & notes de sécu façon HackTricks"
+site_author: "Ton Nom"
+
+theme:
+  name: material
+  language: fr
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.instant
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+    - content.code.annotate
+    - toc.integrate
+  palette:
+    - scheme: slate
+      primary: indigo
+      accent: deep orange
+      toggle:
+        icon: material/weather-sunny
+        name: Passer en mode clair
+    - scheme: default
+      primary: indigo
+      accent: deep orange
+      toggle:
+        icon: material/weather-night
+        name: Passer en mode sombre
+  font:
+    text: Roboto
+    code: Roboto Mono
+  favicon: images/favicon.png
+  logo: images/logo.png
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - def_list
+  - footnotes
+  - md_in_html
+  - pymdownx.details
+  - pymdownx.highlight:
+      anchor_linenums: true
+      linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - tables
+  - toc:
+      permalink: true
+
+plugins:
+  - search
+  - tags
+  - git-revision-date
+  - git-committers
+  - rss:
+      match_path: ".*"
+      date_from_meta:
+        as_creation: date
+        as_update: updated
+  - mermaid2
+  - minify:
+      minify_html: true
+
