@@ -68,5 +68,19 @@ plugins:
   - mermaid2
   - minify:
       minify_html: true
-extra:
-  footer: ""
+
+nav:
+  - Home: index.md
+  - Networking:
+      - Overview: 01_networking/index.md
+      - TCP: 01_networking/tcp.md
+      - UDP: 01_networking/udp.md
+  - Web:
+      - Overview: 02_web/index.md
+      - XSS: 02_web/xss.md
+      - SQL Injection: 02_web/sql_injection.md
+  - Windows:
+      - Overview: 03_windows/index.md
+      - PowerShell: 03_windows/powershell.md
+      - Privilege Escalation: 03_windows/privilege_escalation.md
+
