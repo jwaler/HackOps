@@ -4,7 +4,7 @@ site_description: "HackOps Golden Book"
 site_author: "HackOps Team"
 
 theme:
-  name: materiali
+  name: material
   copyright: "HackOps Team"
   language: fr
   features:
