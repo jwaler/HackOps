@@ -38,10 +38,25 @@ theme:
   logo: images/logo.png
 
 markdown_extensions:
-  - admonition
+  - admonition            # base callouts
+  - pymdownx.highlight    # syntax highlighting
   - attr_list
   - def_list
   - footnotes
+  - pymdownx.blocks.admonition:
+      types:
+        - note
+        - abstract
+        - info
+        - tip
+        - success
+        - question
+        - warning
+        - failure
+        - danger
+        - bug
+        - example
+        - quote
   - md_in_html
   - pymdownx.details
   - pymdownx.highlight:
