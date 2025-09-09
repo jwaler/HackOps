@@ -34,7 +34,7 @@ theme:
   font:
     text: Roboto
     code: Roboto Mono
-  favicon: images/favicon.png
+  favicon: images/logo.ico
   logo: images/logo.png
 
 markdown_extensions:
